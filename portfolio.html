@@ -18,27 +18,25 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="header section">
-      <div class="header-conteiter conteiter">
+    <header class="header">
+      <div class="header-conteiter conteiner">
         <a class="logo head" href="./index.html">
           WEB<span class="logo-dark">STUDIO</span>
         </a>
         <nav class="header-nav">
           <ul class="site-nav">
             <li class="site-nav-links">
-              <a class="site-nav-link" href="./index.html">Studio</a>
+              <a class="site-nav-link current" href="./index.html">Studio</a>
             </li>
             <li class="site-nav-links">
-              <a class="site-nav-link current" href="./portfolio.html"
-                >Portfolio</a
-              >
+              <a class="site-nav-link" href="./portfolio.html">Portfolio</a>
             </li>
             <li class="site-nav-links">
-              <a class="site-nav-link" href>Contacts</a>
+              <a class="site-nav-link" href="">Contacts</a>
             </li>
           </ul>
         </nav>
-        <address>
+        <address class="header-contacts">
           <ul class="contacts">
             <li>
               <a class="contact-link" href="mailto:info@devstudio.com"
@@ -52,6 +50,15 @@
             </li>
           </ul>
         </address>
+        <button
+          class="menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg width="32" height="22" stroke="currentColor">
+            <use class="menu-icon" href="./images/icons.svg#menu"></use>
+          </svg>
+        </button>
       </div>
     </header>
     <main>
