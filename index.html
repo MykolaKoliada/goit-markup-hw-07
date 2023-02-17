@@ -130,46 +130,112 @@
           <h2 class="work-title">What are we doing</h2>
           <ul class="work-list">
             <li>
-              <img
-                class="work-img"
-                src="./images/example1.jpg"
-                alt="examples of work"
-                width="360"
-                height="300"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/work/image1.webp    1x,
+                    ./images/work/image1@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/work/image1.jpg    1x,
+                    ./images/work/image1@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <img
+                  class="work-img"
+                  src="./images/work/image1.jpg"
+                  alt="examples of work"
+                  width="360"
+                  height="300"
+                  loading="lazy"
+                />
+              </picture>
             </li>
             <li>
-              <img
-                class="work-img"
-                src="./images/example2.jpg"
-                alt="examples of work"
-                width="360"
-                height="300"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/work/image2.webp    1x,
+                    ./images/work/image2@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/work/image2.jpg    1x,
+                    ./images/work/image2@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <img
+                  class="work-img"
+                  src="./images/work/image2.jpg"
+                  alt="examples of work"
+                  width="360"
+                  height="300"
+                  loading="lazy"
+                />
+              </picture>
             </li>
             <li>
-              <img
-                class="work-img"
-                src="./images/example3.jpg"
-                alt="examples of work"
-                width="360"
-                height="300"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/work/image3.webp    1x,
+                    ./images/work/image3@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/work/image3.jpg    1x,
+                    ./images/work/image3@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <img
+                  class="work-img"
+                  src="./images/work/image3.jpg"
+                  alt="examples of work"
+                  width="360"
+                  height="300"
+                  loading="lazy"
+                />
+              </picture>
             </li>
           </ul>
         </div>
       </section>
-      <!-- <section class="team section">
+      <section class="team section">
         <div class="conteiner">
           <h2 class="team-title">Our Team</h2>
           <ul class="team-list">
             <li class="team-member">
-              <img
-                src="./images/team.jpg"
+              <picture>
+                <source
+                  srcset="
+                    ./images/team/team1.webp 1x,
+                    ./images/team/team1@2x.webp 2x"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./iimages/team/team1.jpg 1x,
+                    ./images/team/team1@2x.jpg 2x"
+                  type="image/jpg"
+                />
+                <img
+                src="./images/team/team1.jpg"
                 alt="foto Mark Guerrero"
                 width="264"
                 height="260"
-              />
+                loading="lazy"/>
+              </picture>
+              
               <div class="txt-content">
                 <h3 class="team-member-title">Mark Guerrero</h3>
                 <p class="team-text">Product Designer</p>
@@ -230,12 +296,26 @@
               </div>
             </li>
             <li class="team-member">
-              <img
-                src="./images/team1.jpg"
+              <picture>
+                <source
+                  srcset="
+                    ./images/team/team2.webp 1x,
+                    ./images/team/team2@2x.webp 2x"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./iimages/team/team2.jpg 1x,
+                    ./images/team/team2@2x.jpg 2x"
+                  type="image/jpg"
+                />
+                <img
+                src="./images/team/team2.jpg"
                 alt="foto Tom Ford"
                 width="264"
                 height="260"
-              />
+                loading="lazy"/>
+              </picture>
               <div class="txt-content">
                 <h3 class="team-member-title">Tom Ford</h3>
                 <p class="team-text">Frontend Developer</p>
@@ -290,12 +370,26 @@
               </div>
             </li>
             <li class="team-member">
-              <img
-                src="./images/team2.jpg"
+              <picture>
+                <source
+                  srcset="
+                    ./images/team/team3.webp 1x,
+                    ./images/team/team3@2x.webp 2x"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./iimages/team/team3.jpg 1x,
+                    ./images/team/team3@2x.jpg 2x"
+                  type="image/jpg"
+                />
+                <img
+                src="./images/team/team3.jpg"
                 alt="foto Camila Garcia"
                 width="264"
                 height="260"
-              />
+                loading="lazy"/>
+              </picture>
               <div class="txt-content">
                 <h3 class="team-member-title">Camila Garcia</h3>
                 <p class="team-text">Marketing</p>
@@ -356,12 +450,26 @@
               </div>
             </li>
             <li class="team-member">
-              <img
-                src="./images/team3.jpg"
+              <picture>
+                <source
+                  srcset="
+                    ./images/team/team4.webp 1x,
+                    ./images/team/team4@2x.webp 2x"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./iimages/team/team4.jpg 1x,
+                    ./images/team/team4@2x.jpg 2x"
+                  type="image/jpg"
+                />
+                <img
+                src="./images/team/team4.jpg"
                 alt="foto Daniel Wilson"
                 width="264"
                 height="260"
-              />
+                loading="lazy"/>
+              </picture>
               <div class="txt-content">
                 <h3 class="team-member-title">Daniel Wilson</h3>
                 <p class="team-text">UI Designer</p>
@@ -423,8 +531,8 @@
             </li>
           </ul>
         </div>
-      </section> -->
-      <!-- <section class="customers section">
+      </section>
+      <section class="customers section">
         <div class="conteiner">
           <h2 class="customers-title">Customers</h2>
           <ul class="customers-list">
@@ -472,7 +580,7 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
     </main>
     <!-- <footer class="footer section">
       <div class="conteiner">
@@ -718,7 +826,6 @@
           </a>
         </li>
       </ul>
-   
     </div>
     <script
       defer
